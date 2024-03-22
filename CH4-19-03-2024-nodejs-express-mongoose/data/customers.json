@@ -1,0 +1,65 @@
+[
+	{
+		"_id": "65fda584d30a1a8e68ce7503",
+		"name": "Finch Buckner",
+		"email": "finchbuckner@imperium.com",
+		"role": "user",
+		"active": false,
+		"photo": "user-2.jpg",
+		"password": ""
+	},
+	{
+		"_id": "65fda584adf2a553ceb06cb5",
+		"name": "Susie Richmond",
+		"email": "susierichmond@imperium.com",
+		"role": "admin",
+		"active": false,
+		"photo": "user-1.jpg",
+		"password": ""
+	},
+	{
+		"_id": "65fda58484bd938b3c1524a8",
+		"name": "Concetta Livingston",
+		"email": "concettalivingston@imperium.com",
+		"role": "user",
+		"active": true,
+		"photo": "user-2.jpg",
+		"password": ""
+	},
+	{
+		"_id": "65fda5842bab8e117f56922a",
+		"name": "Frost Sawyer",
+		"email": "frostsawyer@imperium.com",
+		"role": "admin",
+		"active": false,
+		"photo": "user-5.jpg",
+		"password": ""
+	},
+	{
+		"_id": "65fda584078c342efc5b3b65",
+		"name": "Turner Mejia",
+		"email": "turnermejia@imperium.com",
+		"role": "admin",
+		"active": true,
+		"photo": "user-1.jpg",
+		"password": ""
+	},
+	{
+		"_id": "65fda58480eca60083717322",
+		"name": "Margery Washington",
+		"email": "margerywashington@imperium.com",
+		"role": "admin",
+		"active": false,
+		"photo": "user-3.jpg",
+		"password": ""
+	},
+	{
+		"_id": "65fda584a320168efd57fc03",
+		"name": "Lowery Delacruz",
+		"email": "lowerydelacruz@imperium.com",
+		"role": "admin",
+		"active": false,
+		"photo": "user-4.jpg",
+		"password": ""
+	}
+]
