@@ -2,7 +2,13 @@ const Customer = require('./../models/customerModel');
 
 const getCustomers = async (req, res, next) => {
 	try {
-		const customers = await Customer.find();
+		const queryObj = { ...req.query };
+		const exludedColumn = ['page', 'srot', 'limit', 'fields'];
+
+		exludedColumn.forEach((el) => delete queryObj[el]);
+		console.log(req.query, queryObj);
+
+		const customers = await Customer.find(req.query);
 
 		res.status(200).json({
 			status: 'success',
