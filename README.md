@@ -22,9 +22,9 @@
 
 ### KM x Binar Academy Batch 6
 
-|                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------- |
-| **Catatan**                                                                                                      |
-| Chapter 4 - Live Coding All Day                                                                                  |
-| **Submission Chapter 4**                                                                                         |
-| [Github Repository - Challenge CH 4](https://github.com/vierynugroho/f-fsw24001086-km6-vie-express_database-ch4) |
+|                                                                                                        |
+| ------------------------------------------------------------------------------------------------------ |
+| **Catatan**                                                                                            |
+| Chapter 4 - Live Coding All Day                                                                        |
+| **Submission Chapter 4**                                                                               |
+| [Github Repository - Challenge CH 4](https://github.com/vierynugroho/f-fsw24001086-km6-vie-DB_API-ch4) |
