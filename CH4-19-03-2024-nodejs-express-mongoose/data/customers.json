@@ -1,65 +1,68 @@
 [
 	{
-		"_id": "65fda584d30a1a8e68ce7503",
-		"name": "Finch Buckner",
-		"email": "finchbuckner@imperium.com",
+		"_id": "6602d4012bf5e1e3e9cced1a",
+		"name": "Maynard Hardy",
+		"age": 22,
+		"email": "maynardhardy@bristo.com",
 		"role": "user",
-		"active": false,
-		"photo": "user-2.jpg",
-		"password": ""
-	},
-	{
-		"_id": "65fda584adf2a553ceb06cb5",
-		"name": "Susie Richmond",
-		"email": "susierichmond@imperium.com",
-		"role": "admin",
-		"active": false,
-		"photo": "user-1.jpg",
-		"password": ""
-	},
-	{
-		"_id": "65fda58484bd938b3c1524a8",
-		"name": "Concetta Livingston",
-		"email": "concettalivingston@imperium.com",
-		"role": "user",
-		"active": true,
-		"photo": "user-2.jpg",
-		"password": ""
-	},
-	{
-		"_id": "65fda5842bab8e117f56922a",
-		"name": "Frost Sawyer",
-		"email": "frostsawyer@imperium.com",
-		"role": "admin",
 		"active": false,
 		"photo": "user-5.jpg",
-		"password": ""
+		"password": "",
+		"createdAt": "2022-04-19T09:51:50"
 	},
 	{
-		"_id": "65fda584078c342efc5b3b65",
-		"name": "Turner Mejia",
-		"email": "turnermejia@imperium.com",
-		"role": "admin",
-		"active": true,
+		"_id": "6602d401410177cf0b83a06a",
+		"name": "Dawn Mcgowan",
+		"age": 32,
+		"email": "dawnmcgowan@bristo.com",
+		"role": "user",
+		"active": false,
 		"photo": "user-1.jpg",
-		"password": ""
+		"password": "",
+		"createdAt": "2019-04-05T08:17:29"
 	},
 	{
-		"_id": "65fda58480eca60083717322",
-		"name": "Margery Washington",
-		"email": "margerywashington@imperium.com",
+		"_id": "6602d40154d1a01f0617d20e",
+		"name": "Rosario Hampton",
+		"age": 38,
+		"email": "rosariohampton@bristo.com",
+		"role": "user",
+		"active": false,
+		"photo": "user-4.jpg",
+		"password": "",
+		"createdAt": "2019-05-12T12:51:16"
+	},
+	{
+		"_id": "6602d40151ba4341fc96ed86",
+		"name": "Winifred Bishop",
+		"age": 30,
+		"email": "winifredbishop@bristo.com",
 		"role": "admin",
 		"active": false,
-		"photo": "user-3.jpg",
-		"password": ""
+		"photo": "user-1.jpg",
+		"password": "",
+		"createdAt": "2016-10-18T09:08:49"
 	},
 	{
-		"_id": "65fda584a320168efd57fc03",
-		"name": "Lowery Delacruz",
-		"email": "lowerydelacruz@imperium.com",
+		"_id": "6602d40117c3f9402b7c7ad9",
+		"name": "Francesca Manning",
+		"age": 40,
+		"email": "francescamanning@bristo.com",
+		"role": "user",
+		"active": true,
+		"photo": "user-3.jpg",
+		"password": "",
+		"createdAt": "2023-08-28T08:41:06"
+	},
+	{
+		"_id": "6602d401028f58926fc00980",
+		"name": "Weber Bender",
+		"age": 32,
+		"email": "weberbender@bristo.com",
 		"role": "admin",
 		"active": false,
 		"photo": "user-4.jpg",
-		"password": ""
+		"password": "",
+		"createdAt": "2023-05-17T08:16:47"
 	}
 ]

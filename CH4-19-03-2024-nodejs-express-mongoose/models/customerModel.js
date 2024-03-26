@@ -5,6 +5,9 @@ const customerSchema = new mongoose.Schema({
 		type: String,
 		required: [true, 'name cannot be empty'],
 	},
+	age: {
+		type: Number,
+	},
 	email: {
 		type: String,
 		unique: true,
@@ -27,6 +30,11 @@ const customerSchema = new mongoose.Schema({
 	},
 	password: {
 		type: String,
+		select: false, // disabled query
+	},
+	createdAt: {
+		type: Date,
+		default: Date.now(),
 	},
 });
 
