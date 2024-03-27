@@ -2,6 +2,10 @@
   Chapter 4 - Live Coding All Day
 </h1>
 
+# API DOCS
+
+[27-03-2024 - postman docs](https://documenter.getpostman.com/view/22814931/2sA35EZMzg)
+
 # Database Diagram
 
 ![ERD](./ERD.png)
