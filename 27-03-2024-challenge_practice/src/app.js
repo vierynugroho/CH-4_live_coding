@@ -6,6 +6,8 @@ const path = require('path');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const router = require('./routes');
+const flash = require('connect-flash');
+const session = require('express-session');
 
 //! config
 const app = express();
@@ -21,6 +23,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(cors());
 app.use(express.json());
 app.use(logger('dev'));
+app.use(
+	session({
+		secret: 'apalah',
+		saveUninitialized: true,
+		resave: true,
+	})
+);
+app.use(flash());
 
 //! Routes
 app.use(router);

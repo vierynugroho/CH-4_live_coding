@@ -21,6 +21,22 @@
 	<body>
 		<div class="container-fluid mt-5">
 			<h1>Ramadhan Kareem!</h1>
+
+			<% if(message != ''){ %>
+			<div
+				class="alert alert-success alert-dismissible fade show"
+				role="alert"
+			>
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="alert"
+					aria-label="Close"
+				></button>
+				<strong>Berhasil</strong> <%-message%>
+			</div>
+
+			<% } %>
 			<div class="d-flex justify-content-end">
 				<a
 					href="/customers/dashboard/create"
@@ -38,6 +54,7 @@
 							<th scope="col">Email</th>
 							<th scope="col">Age</th>
 							<th scope="col">Created at</th>
+							<th scope="col">Action</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -49,6 +66,43 @@
 							<td><%- customer.email %></td>
 							<td><%- customer.age %></td>
 							<td><%- customer.createdAt %></td>
+
+							<td>
+								<div class="dropdown open">
+									<button
+										class="btn btn-secondary dropdown-toggle"
+										type="button"
+										id="triggerId"
+										data-bs-toggle="dropdown"
+										aria-haspopup="true"
+										aria-expanded="false"
+									>
+										Action
+									</button>
+									<div
+										class="dropdown-menu"
+										aria-labelledby="triggerId"
+									>
+										<a
+											class="dropdown-item"
+											href="/customers/dashboard/edit/<%- customer.id %>"
+										>
+											Edit
+										</a>
+										<form
+											action="/customers/dashboard/delete/<%- customer.id %>"
+											method="post"
+										>
+											<button
+												class="dropdown-item"
+												type="submit"
+											>
+												Delete
+											</button>
+										</form>
+									</div>
+								</div>
+							</td>
 						</tr>
 						<% }) %>
 					</tbody>

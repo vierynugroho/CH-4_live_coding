@@ -13,10 +13,12 @@
 	"author": "Viery Nugroho",
 	"license": "ISC",
 	"dependencies": {
+		"connect-flash": "^0.1.1",
 		"cors": "^2.8.5",
 		"dotenv": "^16.4.5",
 		"ejs": "^3.1.9",
 		"express": "^4.19.2",
+		"express-session": "^1.18.0",
 		"morgan": "^1.10.0",
 		"nodemon": "^3.1.0",
 		"pg": "^8.11.3",
